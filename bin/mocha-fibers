@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+var path = require('path');
 var spawn = require('child_process').spawn
-var child = spawn("./node_modules/.bin/mocha", ["--require", "./lib/mocha-fibers", "--ui", "fibered"].concat(process.argv.slice(2)), {stdio: [0,1,2]});
+var child = spawn(path.join(__dirname, "../node_modules/.bin/mocha"), ["--require", "./lib/mocha-fibers", "--ui", "fibered"].concat(process.argv.slice(2)), {stdio: [0,1,2]});
 
