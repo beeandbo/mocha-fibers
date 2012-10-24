@@ -1,6 +1,6 @@
 {
   "name": "mocha-fibers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bdd style interface wrapped in fibers",
   "main": "./lib/mocha-fibers"
   "dependencies": {
