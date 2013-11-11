@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "mocha": "~1.14.0",
-    "jshint": "~2.3.0"
+    "jshint": "~2.3.0",
+    "semver": "~2.2.1"
   },
   "bin": {
     "mocha-fibers": "./bin/mocha-fibers"
