@@ -15,5 +15,6 @@
   },
   "bin": {
     "mocha-fibers": "./bin/mocha-fibers"
-  }
+  },
+  "license": "MIT"
 }
