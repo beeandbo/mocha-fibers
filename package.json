@@ -8,7 +8,7 @@
   },
   "main": "./lib/mocha-fibers",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --ui ../../../lib/mocha-fibers.js"
+    "test": "mocha --ui ../../../lib/mocha-fibers.js"
   },
   "dependencies": {
     "underscore": "~1.5.2",
