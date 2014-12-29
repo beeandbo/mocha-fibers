@@ -30,4 +30,10 @@ describe('mocha-fibers', function(){
       done();
     });
   });
+
+  describe('skipped tests', function() {
+    it.skip('should not run', function() {
+      assert(false);
+    });
+  });
 });
