@@ -2,6 +2,10 @@
   "name": "mocha-fibers",
   "version": "1.1.0",
   "description": "bdd style interface wrapped in fibers",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tzeskimo/mocha-fibers.git"
+  },
   "main": "./lib/mocha-fibers",
   "scripts": {
     "test": "./node_modules/.bin/mocha --ui ../../../lib/mocha-fibers.js"
